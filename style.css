@@ -3,9 +3,10 @@ body {
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
   padding-top: 50px;
+  letter-spacing: 1px;
 }
 .container {
-  width: 500px;
+  width: 550px;
   margin: auto;
   background-color: #e4eff5;
   border-radius: 10px;
@@ -27,7 +28,7 @@ body {
 .left {
   background-color: #2ab2af;
   padding: 10px 30px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 .left h2,
 h1,
@@ -35,10 +36,20 @@ p {
   color: white;
   line-height: 1.5;
 }
+.left h1{
+  
+}
 .left p {
   font-size: 20px;
 }
-
+.number {
+  display: flex;
+  height: 75px;
+}
+.number p {
+  padding: 15px 20px;
+  font-size: 20px;
+}
 .button {
   background-color: #c1df33;
   color: white;
@@ -48,7 +59,8 @@ p {
   text-align: center;
   display: inline-block;
   cursor: pointer;
-  padding: 20px 185px;
+  padding: 20px 210px;
+  margin: 10px 0px;
 }
 .right {
   background-color: #4bbebd;
