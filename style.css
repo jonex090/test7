@@ -36,9 +36,6 @@ p {
   color: white;
   line-height: 1.5;
 }
-.left h1{
-  
-}
 .left p {
   font-size: 20px;
 }
@@ -71,4 +68,37 @@ p {
 }
 .right p {
   line-height: 1.7;
+}
+@media only screen and (min-width: 768px) {
+
+  .container {
+    display:flexbox;
+    width: 44%;
+    margin: auto;
+  }
+  .bottom{
+    display: flex;
+    justify-items: center;
+    width: auto;
+  }
+  .button{
+    padding: 10px 150px;
+    width: auto;
+    
+    
+  }
+  .right{
+    width: 100%;
+    
+  }
+  .right p{ 
+    line-height: 0.8;
+  }
+  .right h2{
+    padding-bottom: 10px;
+  }
+  .left p {
+    line-height: 0.8;
+  }
+
 }
