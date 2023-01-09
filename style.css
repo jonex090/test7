@@ -1,62 +1,62 @@
 body {
-  background-color: blue;
+  background-color: rgb(170, 170, 238);
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   padding-top: 50px;
 }
 .container {
-  border-radius: 10px;
+  width: 500px;
   margin: auto;
   background-color: #e4eff5;
-  width: 450px;
-  padding-top: 10px;
+  border-radius: 10px;
 }
-.container p {
-  font-size: 18px;
+.top {
   padding: 10px 30px;
+}
+.top p {
   color: #98a6be;
+  font-size: 20px;
+  line-height: 1.7;
 }
-.container h2,
-h1 {
-  padding: 0px 30px;
-}
-.container h1 {
-    color: #2ab2b0;
-}
-.container h2 {
+.top h2 {
   color: #c0df33;
 }
-.left-container {
-  background-color: #2ab2af;
-  padding-top: 10px;
-  
+.top h1 {
+  color: #2ab2b0;
 }
-.left-container h1{
+.left {
+  background-color: #2ab2af;
+  padding: 10px 30px;
+  padding-bottom: 40px;
+}
+.left h2,
+h1,
+p {
+  color: white;
+  line-height: 1.5;
+}
+.left p {
+  font-size: 20px;
+}
+
+.button {
+  background-color: #c1df33;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 7px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  padding: 20px 185px;
+}
+.right {
+  background-color: #4bbebd;
+  padding: 10px 30px;
+}
+.right h2 {
   color: white;
 }
-.left-container h2{
-    color: white;
-  }
-.left-container p{
-    color: white;
-}
-button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.button {
-    background-color: #c1df33;
-    border: none;
-    border-radius: 7px;
-    color: white;
-    padding: 20px 159px;
-    font-size: 20px;
-    margin: 0px 30px;
-    cursor: pointer;
-  }
-
-.right-container{
-    background-color: #4bbebd;
-    margin: 0;
+.right p {
+  line-height: 1.7;
 }
