@@ -80,7 +80,7 @@ li {
 @media only screen and (min-width: 768px) {
   .container {
     display: flexbox;
-    width: 44%;
+    width: 40%;
     margin: auto;
   }
   .top {
@@ -91,7 +91,7 @@ li {
     width: auto;
   }
   .button {
-    padding: 20px 145px;
+    padding: 20px 130px;
     width: auto;
     font-size: 20px;
     white-space: nowrap;
