@@ -37,11 +37,14 @@ p {
   line-height: 1.5;
 }
 .left p {
-  font-size: 20px;
+  font-size: 18px;
+}
+.left h2 {
+  height: 15px;
 }
 .number {
   display: flex;
-  height: 75px;
+  height: 70px;
 }
 .number p {
   padding: 15px 20px;
@@ -66,8 +69,13 @@ p {
 .right h2 {
   color: white;
 }
-.right p {
+ul {
+  padding: 0;
+}
+li {
   line-height: 1.7;
+  color: white;
+  list-style-type: none;
 }
 @media only screen and (min-width: 768px) {
   .container {
@@ -75,25 +83,30 @@ p {
     width: 44%;
     margin: auto;
   }
+  .top {
+    padding: 30px 50px;
+  }
   .bottom {
     display: flex;
-    justify-items: center;
     width: auto;
   }
   .button {
-    padding: 10px 150px;
+    padding: 20px 145px;
     width: auto;
+    font-size: 20px;
+    white-space: nowrap;
   }
   .right {
     width: 100%;
+    padding: 30px 50px;
   }
-  .right p {
-    line-height: 0.8;
+  .left {
+    padding: 30px 50px;
   }
   .right h2 {
     padding-bottom: 10px;
   }
   .left p {
-    line-height: 0.8;
+    line-height: 1.5;
   }
 }
